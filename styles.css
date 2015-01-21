@@ -10,18 +10,26 @@ html, body {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+div {
+	display: block;
 }
 
 .header {
 	width: 100%;
-	height: 5%;
+	height: 30px;
 	text-align: center;
 	background-color: #004E8E;
-	color: #000000;
-	border-bottom: 2px solid #000000;
+	color: #ffffff;
+	border-bottom: 2px solid #378CCD;
 }
 
 .hdrtext {
-
+	margin-right: 10px;
+	float: left;
+	clear: none;
+	padding-right: 10px;
 }
