@@ -18,18 +18,27 @@ div {
 	display: block;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+i {
+	padding-left: 10px;
+}
+
 .header {
 	width: 100%;
 	height: 30px;
-	text-align: center;
 	background-color: #004E8E;
 	color: #ffffff;
 	border-bottom: 2px solid #378CCD;
 }
 
 .hdrtext {
-	margin-right: 10px;
+	width: 100%;
+	text-align: center;
 	float: left;
 	clear: none;
-	padding-right: 10px;
+	margin: 0 auto;
+	padding: 10px;
 }
